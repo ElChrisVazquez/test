@@ -28,8 +28,6 @@
             backgroundColor: [
                 "#4b77a9",
                 "#5f255f",
-                "#d21243",
-                "#B27200"
             ],
             borderColor: "#fff"
         }];
@@ -52,7 +50,7 @@
         var myChart = new Chart(ctx, {
             type: 'pie',
             data: {
-                labels: ['India', 'China', 'US', 'Canada'],
+                labels: ['hombres', 'mujeres'],
                 datasets: data
             },
             options: options,
